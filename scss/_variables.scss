@@ -1,0 +1,14 @@
+@mixin button-red {
+    color: white;
+    text-decoration: none;
+    background: #ff0e7c;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  @mixin a-red{
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+  }
