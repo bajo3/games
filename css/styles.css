@@ -4,6 +4,10 @@ body {
   color: white;
 }
 
+hr {
+  color: violet;
+}
+
 main {
   width: 100%;
   background: url(../img/1.png);
@@ -53,6 +57,7 @@ main a:hover {
 
 /*Section buy*/
 .buy {
+  background: black url("../img/2.png");
   width: 100%;
   background: url(../img/2.png);
   height: 110vh;
@@ -88,6 +93,8 @@ main a:hover {
 }
 
 .game {
+  background: black url("../img/2.png");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -108,6 +115,21 @@ main a:hover {
   margin-left: 20%;
   text-align: center;
 }
+.game .container .text h1 {
+  font-size: 3rem;
+}
+.game .container .text p {
+  font-size: 2rem;
+}
+.game .container .text a {
+  background: white;
+  padding: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: auto;
+  color: #f41671;
+}
 .game .container img {
   width: 40%;
 }
@@ -120,6 +142,33 @@ main a:hover {
   }
   .game .container img {
     width: 100%;
+  }
+}
+
+.review {
+  background: black url("../img/3.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.review h1 {
+  font-size: 5rem;
+}
+.review .container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.review .container h3 {
+  color: #f41671;
+}
+@media (max-width: 768px) {
+  .review .container {
+    display: flex;
+    flex-direction: column;
   }
 }
 
